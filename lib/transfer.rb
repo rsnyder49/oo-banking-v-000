@@ -24,9 +24,6 @@ class Transfer
     else 
       "Transaction rejected. Please check your account balance."
     end
-    if @status == "complete"
-  
-    end
   end 
   
 end
