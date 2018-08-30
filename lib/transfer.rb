@@ -25,7 +25,7 @@ class Transfer
       "Transaction rejected. Please check your account balance."
     end
     if @status == "complete"
-      break
+  
     end
   end 
   
