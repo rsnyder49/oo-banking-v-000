@@ -28,6 +28,7 @@ class Transfer
     @receiver.balance += @amount
     @status = "complete"
     @amount = 0
+  end
   end 
   
 end
