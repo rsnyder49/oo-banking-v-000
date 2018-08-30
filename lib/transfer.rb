@@ -16,4 +16,12 @@ class Transfer
     end
   end
   
+  def execute_transaction
+    if !valid?
+      "Transaction rejected. Please check your account balance."
+    else 
+      
+    end 
+  end 
+  
 end
