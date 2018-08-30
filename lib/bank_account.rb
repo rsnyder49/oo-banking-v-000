@@ -8,4 +8,8 @@ class BankAccount
     @status = "open"
   end 
   
+  def depost(amount)
+    @total += amount 
+  end 
+  
 end
