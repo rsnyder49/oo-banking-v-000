@@ -23,7 +23,8 @@ class Transfer
       @status = "complete"
     else 
       "Transaction rejected. Please check your account balance."
-    end 
+    end
+    execute_transaction unless @status == "complete"
   end 
   
 end
